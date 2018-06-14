@@ -3,10 +3,12 @@ set (CMAKE_C_STANDARD 11)
 
 set (CMAKE_CXX_STANDARD 11)
 
-project (GameEngineFromScrath)
+project (ViriyaEngine)
 
 include_directories("${PROJECT_SOURCE_DIR}/Framework/Common")
 include_directories("${PROJECT_SOURCE_DIR}/Framework/Interface")
+include_directories("${PROJECT_SOURCE_DIR}/RHI")
 
 add_subdirectory(Framework)
-add_subdirectory(Empty)
+add_subdirectory(Platform)
+add_subdirectory(RHI)
