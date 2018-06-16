@@ -16,7 +16,7 @@ int My::OpenGLGraphicsManager::Initialize()
 		result = -1;
 	}else{
 		result = 0;
-		printf("OpenGl version %d.%d loaded\n", GLVersion.major, GlVersion.minor);
+		printf("OpenGl version %d.%d loaded\n", GLVersion.major, GLVersion.minor);
 		if(GLAD_GL_VERSION_3_0){
 			glClearDepth(1.0f);
 
